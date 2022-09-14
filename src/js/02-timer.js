@@ -74,8 +74,6 @@ function onTimerStarts(finishDate) {
 
   refs.btnStart.removeAttribute('disabled');
   refs.btnStart.addEventListener('click', () => timer.start(enterTime));
-  console.log(enterTime);
-  console.log(currentTime);
 }
 
 function pad(value) {
