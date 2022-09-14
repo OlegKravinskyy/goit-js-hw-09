@@ -16,3 +16,52 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  width: 90px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: rgb(15, 126, 223);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #200db4;
+}
+button:disabled {
+  background-color: #ebe2e2;
+  cursor: auto;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.field {
+  display: block;
+
+  border-radius: 5%;
+  margin: 0 2%;
+  padding-bottom: 2%;
+  width: 20%;
+  background-color: rgb(32, 120, 209);
+  color: azure;
+}
+.value,
+.label {
+  display: block;
+  text-align: center;
+}
+.value {
+  font-size: 5rem;
+  border-bottom: #212121 solid 2px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#datetime-picker {
+  width: 250px;
+  height: 40px;
+  border: 2px solid rgb(32, 120, 209);
+  margin-left: 180px;
+}
